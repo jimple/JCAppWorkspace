@@ -32,8 +32,14 @@ workspace结构：
   http://years.im/Home/Article/detail/id/52.html
 
   其中添加一个Aggregate Target以便多人分开开发时输出framework给别的工程使用。
+
+# JCApp 
+- 在storyboard中添加对象，分别是带owner的Behavior对象和ViewModel对象。
+
+  通过在storyboard添加对象，使对象关系更直观，且对象生命周期和ViewController生命周期同步。
   
-  
+- 通过继承Mantle中MTLModel类，使数据对象不用自己去写copying和code协议实现代码。
+
 
 
 
