@@ -1,9 +1,9 @@
 //
 //  SecondViewController.m
-//  JCApp
+//  BehaviorProj
 //
-//  Created by chenjinhong on 15/4/29.
-//  Copyright (c) 2015年 JimpleChen. All rights reserved.
+//  Created by chenjinhong on 15/4/15.
+//  Copyright (c) 2015年 chenjinhong. All rights reserved.
 //
 
 #import "SecondViewController.h"

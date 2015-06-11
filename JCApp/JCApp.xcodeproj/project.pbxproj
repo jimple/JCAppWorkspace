@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A644241B2968820033B509 /* BaseControlBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6441B1B2968820033B509 /* BaseControlBehavior.m */; };
+		07A644251B2968820033B509 /* FirstBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6441D1B2968820033B509 /* FirstBehavior.m */; };
+		07A644261B2968820033B509 /* FirstVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6441F1B2968820033B509 /* FirstVM.m */; };
+		07A644281B2968820033B509 /* TheMTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A644231B2968820033B509 /* TheMTLModel.m */; };
 		18170C4EF3B72F277AC4480F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ADD90EA2C8D95CB5B07885 /* libPods.a */; };
 		38CCADA21AF0C9E9000AADEB /* JCSystemLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CCADA11AF0C9E9000AADEB /* JCSystemLayer.framework */; };
 		38D16D111AF0BBD200C9015C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D16D101AF0BBD200C9015C /* main.m */; };
@@ -30,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07A6441A1B2968820033B509 /* BaseControlBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseControlBehavior.h; sourceTree = "<group>"; };
+		07A6441B1B2968820033B509 /* BaseControlBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseControlBehavior.m; sourceTree = "<group>"; };
+		07A6441C1B2968820033B509 /* FirstBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstBehavior.h; sourceTree = "<group>"; };
+		07A6441D1B2968820033B509 /* FirstBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstBehavior.m; sourceTree = "<group>"; };
+		07A6441E1B2968820033B509 /* FirstVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVM.h; sourceTree = "<group>"; };
+		07A6441F1B2968820033B509 /* FirstVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVM.m; sourceTree = "<group>"; };
+		07A644221B2968820033B509 /* TheMTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheMTLModel.h; sourceTree = "<group>"; };
+		07A644231B2968820033B509 /* TheMTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheMTLModel.m; sourceTree = "<group>"; };
 		38CCADA11AF0C9E9000AADEB /* JCSystemLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JCSystemLayer.framework; path = "../JCSystemLayer/build/Debug-iphoneos/JCSystemLayer.framework"; sourceTree = "<group>"; };
 		38D16D0B1AF0BBD200C9015C /* JCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D16D0F1AF0BBD200C9015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +114,14 @@
 				38D16D161AF0BBD200C9015C /* FirstViewController.m */,
 				38D16D181AF0BBD200C9015C /* SecondViewController.h */,
 				38D16D191AF0BBD200C9015C /* SecondViewController.m */,
+				07A6441A1B2968820033B509 /* BaseControlBehavior.h */,
+				07A6441B1B2968820033B509 /* BaseControlBehavior.m */,
+				07A6441C1B2968820033B509 /* FirstBehavior.h */,
+				07A6441D1B2968820033B509 /* FirstBehavior.m */,
+				07A6441E1B2968820033B509 /* FirstVM.h */,
+				07A6441F1B2968820033B509 /* FirstVM.m */,
+				07A644221B2968820033B509 /* TheMTLModel.h */,
+				07A644231B2968820033B509 /* TheMTLModel.m */,
 				38D16D1B1AF0BBD200C9015C /* Main.storyboard */,
 				38D16D1E1AF0BBD200C9015C /* Images.xcassets */,
 				38D16D201AF0BBD200C9015C /* LaunchScreen.xib */,
@@ -291,9 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A644281B2968820033B509 /* TheMTLModel.m in Sources */,
+				07A644251B2968820033B509 /* FirstBehavior.m in Sources */,
 				38D16D1A1AF0BBD200C9015C /* SecondViewController.m in Sources */,
 				38D16D141AF0BBD200C9015C /* AppDelegate.m in Sources */,
 				38D16D171AF0BBD200C9015C /* FirstViewController.m in Sources */,
+				07A644261B2968820033B509 /* FirstVM.m in Sources */,
+				07A644241B2968820033B509 /* BaseControlBehavior.m in Sources */,
 				38D16D111AF0BBD200C9015C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
