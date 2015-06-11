@@ -1,0 +1,6 @@
+framework module JCSystemLayer {
+  umbrella header "JCSystemLayer.h"
+
+  export *
+  module * { export * }
+}

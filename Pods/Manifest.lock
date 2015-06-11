@@ -1,0 +1,123 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaSecurity (1.2.4)
+  - DACircularProgress (2.3.1)
+  - EAIntroView (2.7.3):
+    - EARestrictedScrollView (~> 0.1.0)
+  - EARestrictedScrollView (0.1.0)
+  - GVUserDefaults (1.0.1)
+  - HexColors (2.2.1)
+  - KLSwitch (1.5)
+  - LBBlurredImage (0.2.2)
+  - Mantle (2.0.2):
+    - Mantle/extobjc (= 2.0.2)
+  - Mantle/extobjc (2.0.2)
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - MWPhotoBrowser (1.4.1):
+    - DACircularProgress
+    - MBProgressHUD (~> 0.8)
+    - PSTCollectionView (~> 1.2)
+    - SDWebImage (~> 3.7)
+  - NZAlertView (0.0.13):
+    - UIImage-Helpers
+  - pop (1.0.7)
+  - PSTCollectionView (1.2.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SIAlertView (1.3)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - UIImage-Helpers (0.0.3)
+  - UzysCircularProgressPullToRefresh (1.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BlocksKit
+  - CocoaSecurity
+  - EAIntroView
+  - GVUserDefaults
+  - HexColors
+  - KLSwitch
+  - LBBlurredImage
+  - Mantle
+  - Masonry
+  - MBProgressHUD
+  - MWPhotoBrowser
+  - NZAlertView
+  - pop
+  - ReactiveCocoa
+  - SDWebImage
+  - SIAlertView
+  - UIActivityIndicator-for-SDWebImage
+  - UzysCircularProgressPullToRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  EAIntroView: bedde44388280d71c9798ce36c82720901596355
+  EARestrictedScrollView: 5ab3eadd9ea55282cc72df0daecb09803059e3a0
+  GVUserDefaults: acb40729f70984008d0650e49d7e422f1bbfa597
+  HexColors: abfd172e329dab59888614ccba6f216cec59289d
+  KLSwitch: ff8b9953b9e15e16cb53efec7370a44ae02f8a6c
+  LBBlurredImage: 700634c17922bc2d22343118e7deb6a3ca12db43
+  Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MWPhotoBrowser: 2531e682860d62b8a7ba8659de02eb9040e431e5
+  NZAlertView: 3f08e809456b35f5cc64de2dcdc9f5fc3f8eb77f
+  pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
+  PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SIAlertView: 20c794b55eaf44d888773ea51647cf8907723919
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
+  UzysCircularProgressPullToRefresh: 29612d696b5eda55942ecbbb23cd44012a3418bd
+
+COCOAPODS: 0.37.2

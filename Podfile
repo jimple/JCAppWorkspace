@@ -1,0 +1,27 @@
+platform :ios, '6.1'
+inhibit_all_warnings!
+
+xcodeproj 'JCApp/JCApp.xcodeproj'
+xcodeproj 'JCSignlePageApp/JCSignlePageApp.xcodeproj'
+xcodeproj 'JCSystemLayer/JCSystemLayer.xcodeproj'
+
+pod 'Mantle'
+pod 'LBBlurredImage'
+pod 'ReactiveCocoa'
+pod 'HexColors'
+pod 'GVUserDefaults'
+pod 'SDWebImage'
+pod 'UIActivityIndicator-for-SDWebImage'
+pod 'BlocksKit'
+pod 'NZAlertView'
+pod 'MBProgressHUD'
+pod 'SIAlertView'
+pod 'UzysCircularProgressPullToRefresh'
+pod 'AFNetworking'
+pod 'pop'
+pod 'EAIntroView'
+pod 'CocoaSecurity'
+pod 'KLSwitch'
+pod 'Masonry'
+pod 'MWPhotoBrowser'
+
